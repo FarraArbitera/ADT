@@ -1,0 +1,5 @@
+void PrintQueue (Queue Q)
+/* I.S. : Q terdefinisi, mungkin kosong */
+/* F.S. : Semua elemen Q tertulis di layar, dengan format:
+[ el-head ... el-tail ], misalnya [4 8 12 9 10].
+Jika kosong, tampilan di layar adalah []. */
