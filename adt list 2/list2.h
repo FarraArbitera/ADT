@@ -1,9 +1,4 @@
-/*ADT list dummy last, berkait dengan representasi fisik pointer */
-/*Dengan 2 penunjuk, first dan last, dummy selalu menunjuk last */
-/*Representasi address dengan pointer */
-/*infotype adalah int */
-/*Dummy dialokasi pada saat create list, dan selalu menjadi elemen dummy */
-
+//LIST CIRCULAR WITH TWO POINTER
 #ifndef list2_H
 #define list2_H
 #include <stdio.h>
@@ -22,10 +17,6 @@ typedef struct tElmtList
 	address next; 
 }ElmtList;
 
-/*Definisi list*/
-/*List kosong First(L); = dummy@ dan Last(L); = dummy@ */
-/*Setiap elemen dengan address P dapat diacu Info(P);, Next(P); */
-/*Elemen dummy terletak pada last */
 typedef struct 
 {
 	address First;
